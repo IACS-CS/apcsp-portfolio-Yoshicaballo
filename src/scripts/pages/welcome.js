@@ -5,7 +5,7 @@ export function renderWelcome() {
   /* html */
   return `
     <!-- code generated in welcome.js -->
-    <h1>Student Portfolio</h1>
+    <h1>Jay Portfolio</h1>
     ${renderMenu()}
     <h2>About Me</h2>
     <p>All About me...</p>
