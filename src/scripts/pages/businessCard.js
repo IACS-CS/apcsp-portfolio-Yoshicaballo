@@ -2,16 +2,16 @@
 import { renderMenu } from "../utils/renderMenu.js";
 import { renderIframe } from "../utils/renderIframe.js";
 
-export function renderBinarySearch() {
-  /* html */
+export function renderBusinessCard () {
+/* html */
   return `
     <!-- code generated in binarySearch.js -->
     <h1>Binary Search Project</h1>    
     ${renderMenu()}
     <article>
-      <p>Assignment: Create a program built on the concept of binary search</p>
+      <p>Assignment: Create two digital business cards using HTML and CSS.</p>
       <hr>
-      <p>My project was super fun. Me and a friend worked on it. I did most of the text part while my friend added a loop function and added images for every ending.</p>
+      <p>My second web design project.</p>
       ${renderIframe(
         "https://iacs-cs.github.io/binary-search-team-simpsons/",
         "The Simpsons Game"
